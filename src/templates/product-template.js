@@ -35,7 +35,7 @@ const ProductTemplate = ({ data: { contentfulProduct }, location }) => (
         data-item-price={contentfulProduct.price}
         data-item-image={contentfulProduct.image.file.url}
         data-item-name={contentfulProduct.name}
-        data-item-url={location.pathname}
+        data-item-url={'/'}
       >
         Add to Cart
       </button>
