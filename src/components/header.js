@@ -43,7 +43,7 @@ class Header extends React.Component {
               alt="Gatsby Garb Logo"
               style={{
                 borderRadius: '50%',
-                border: '3px solid orange',
+                border: '3px solid red',
                 margin: '0 5px',
                 width: '50px',
               }}
