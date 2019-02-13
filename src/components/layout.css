@@ -613,6 +613,24 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+/*Netlify Identity*/
+
+.netlify-identity-menu{
+  list-style: none;
+  color: white;
+  margin: 0;
+}
+.netlify-identity-signup{
+  color: white;
+}
+
+.netlify-identity-login {
+  color: white;
+}
+
+.netlify-identity-logout{
+  color: white;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
